@@ -11,7 +11,7 @@ body {
 
 /* nav */
 
-.navbar-inverse {
+#home-navbar {
 	margin-bottom: 0;
 	background: rgba(0,0,0,0.5);
 	border-bottom: none;
@@ -60,6 +60,15 @@ nav ul li a {
 	color: #fff;
 }
 
+/* banner */
+
+.banner {
+	background: url("../img/juggler-195309.jpg") center center no-repeat;
+	background-size: cover;
+	height: 100px;
+	margin-top: -50px;
+}
+
 /* body */
 
 .main-content {
@@ -70,10 +79,28 @@ nav ul li a {
 	align-items: center;
 }
 
-.main-content h2 {
+.main-content h2,
+.team-members h3 {
 	font-family: "Futura Medium", arial, sans;
 }
 
+.team-members {
+	padding-top: 20px;
+}
+
+.team-members .row {
+	margin-bottom: 40px;
+}
+
+#team-intro {
+	margin-bottom: 40px;
+}
+
+.headshot {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+}
 
 /* footer */
 
