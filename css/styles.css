@@ -39,7 +39,7 @@ nav ul li a {
 	display: flex;
 	align-items: center;
 	margin-top: -50px;
-	color: #fff;	
+	color: #fff;
 }
 
 #cover-caption {
@@ -56,14 +56,22 @@ nav ul li a {
 
 #cover-caption a {
 	padding: 10px 25px;
-	background: #0f0;
+	background: #555;
 	color: #fff;
 }
 
 /* body */
 
+.main-content {
+	padding: 20px 0;
+	min-height: 100%;
+	text-align: center;
+	display: flex;
+	align-items: center;
+}
+
 .main-content h2 {
-	font-family: "Futura Medium", arial, sans
+	font-family: "Futura Medium", arial, sans;
 }
 
 
@@ -87,3 +95,10 @@ footer a {
 	font-size: 10px;
 }
 
+footer p {
+	margin-top: 150px;
+}
+
+/* media queries */
+
+@media ()
